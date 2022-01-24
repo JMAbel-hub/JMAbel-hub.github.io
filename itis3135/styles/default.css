@@ -7,7 +7,8 @@ body{
     background-color: black;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    margin-left: 150px;
+	margin-right: 150px;
 }
 
 footer{
@@ -15,10 +16,19 @@ footer{
     text-align: center;
 }
 
+figcaption{
+    font-style: italic;
+}
+
 figure{
     color: white;
     text-align: center;
 }
+
+ul{
+    list-style-position: inside;
+}
+
 .profile-image {
     width: 300px;
 }
