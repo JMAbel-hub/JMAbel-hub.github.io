@@ -15,6 +15,10 @@ footer{
     text-align: center;
 }
 
+figure{
+    color: white;
+    text-align: center;
+}
 .profile-image {
     width: 300px;
 }
