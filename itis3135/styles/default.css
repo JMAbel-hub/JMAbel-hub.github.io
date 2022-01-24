@@ -1,5 +1,7 @@
 head{
     color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -11,18 +13,13 @@ body{
 	margin-right: 150px;
 }
 
-footer{
+footer, figure{
     color: white;
     text-align: center;
 }
 
 figcaption{
     font-style: italic;
-}
-
-figure{
-    color: white;
-    text-align: center;
 }
 
 ul{
