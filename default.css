@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+	margin-right: 150px;
+}
+
+footer, figure{
+    color: white;
+    text-align: center;
+}
+
+h1, h2{
+    color: white;
+	text-align: center;
+	line-height: 5px;
+}
+
+
+figcaption{
+    font-style: italic;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.profile-image {
+    width: 300px;
+}
+
+.thin-white-border {
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 0%;
+}
