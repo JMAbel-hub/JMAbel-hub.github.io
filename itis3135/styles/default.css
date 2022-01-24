@@ -1,6 +1,10 @@
 body{
-    background-color: lightblue;
+    background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    color: white
 }
 
 .profile-image {
