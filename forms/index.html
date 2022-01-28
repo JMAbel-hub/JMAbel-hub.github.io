@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<title>Jeremy Abel - ITIS3135 Forms</title>
+</head>
+
+<body>
+	<header>
+		<h1>Welcome to the Jade Alligators!</h1>
+        <div class="nav">
+            <a href="abeltechnologies.tech">Home</a>
+            <a href="itis3135">Introduction</a>
+            <a href="tables">Table</a>
+            <a href="forms">Form</a>
+        </div>
+        <h2>HTML Form</h2>
+	</header>
+	
+	<main>
+        <form>
+            <label for="#name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="#phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone" required><br>
+            <label for="#email">Email Address:</label><br>
+            <input type="text" id="email" name="email" required><br>
+
+            <p>From the list provided what Programming Languages do you know?</p>
+
+            <input type="checkbox" id="java" name="language" value="java">
+            <label for="#java"> Java</label><br>
+            <input type="checkbox" id="python" name="language" value="python">
+            <label for="#python"> Python</label><br>
+            <input type="checkbox" id="c++" name="language" value="c++">
+            <label for="#c++"> C++</label><br>
+            <input type="checkbox" id="c#" name="language" value="c#">
+            <label for="#c#"> C#</label><br>
+            <input type="checkbox" id="c" name="language" value="c">
+            <label for="#c"> C</label><br>
+            
+            <p>Choose your favorite pet animal:</p>
+
+            <input type="radio" id="dog" name="animal" value="dog">
+            <label for="dog">Dog</label><br>
+            <input type="radio" id="cat" name="animal" value="cat">
+            <label for="cat">Cat</label><br>
+            <input type="radio" id="other" name="animal" value="other">
+            <label for="other">Other</label><br>
+
+            <label for="lang">Choose your preferrred language:</label>
+            <select name="lang" id="lang">
+                <option value="eng">English</option>
+                <option value="span">Spanish</option>
+                <option value="fr">French</option>
+                <option value="other">Other</option>
+            </select> <br>
+            
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+        </form>
+	</main>
+	
+	<footer>
+        <div class="nav">
+            <a href="https://www.linkedin.com/in/jeremy-abel123/">Linkedin</a>
+            <a href="https://github.com/JMAbel-hub">Github</a>
+            <a href="#https://jmabel-hub.github.io/">Github.io/Charlotte</a>
+            <a href="https://www.freecodecamp.org/JMAbel123">FreeCodeCamp</a>
+        </div>
+		<a href = "https://www.abeltechnologies.tech"> Pages Built By Abel Technologies ©2022</a>
+
+		<p>
+			<a href="https://validator.w3.org/check?uri=referer">
+                <img src = "images/button_validation_css.png" />
+            <a href= "http://validator.w3.org/check?uri=referer">
+                <img src = "images//button_validation_html5.png" />
+            </a>
+		</p>
+	
+	</footer>
+
+</body>
+
+</html>
