@@ -16,7 +16,7 @@ header{
 	text-align: center;
 }
 
-a{
+label,a,p{
     text-decoration: none;
     color: #00A36C;
 }
@@ -42,6 +42,11 @@ ul{
 .nav a:hover {
     background-color: #00A36C;
     color: black;
+}
+
+form {
+    margin-left: 150px;
+	margin-right: 150px;
 }
 
 form:valid input[type="submit"] {
