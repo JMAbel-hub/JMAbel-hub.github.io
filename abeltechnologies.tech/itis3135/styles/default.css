@@ -7,19 +7,23 @@ body{
 }
 
 footer, figure{
-    color: white;
+    color: #00A36C;
     text-align: center;
 }
 
-h1, h2{
-    color: white;
+header{
+    color: #00A36C;
 	text-align: center;
-	line-height: 5px;
 }
 
 
 figcaption{
     font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: #00A36C;
 }
 
 ul{
@@ -30,9 +34,27 @@ ul{
     width: 300px;
 }
 
-.thin-white-border {
-    border-color: white;
+.thin-jade-border {
+    border-color: #00A36C;
     border-width: 3px;
     border-style: solid;
     border-radius: 0%;
+}
+.nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav a { 
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #00A36C;
+    color: black;
 }
