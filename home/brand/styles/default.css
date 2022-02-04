@@ -16,7 +16,26 @@ header{
 	text-align: center;
 }
 
-label,a,p{
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 0.25;
+}
+
+hr.solid {
+    height: 3px;
+    background-color: #333;
+    border: none;
+}
+
+
+#brand li {
+    list-style-type: circle;
+}
+
+a{
     text-decoration: none;
     color: #00A36C;
 }
@@ -43,14 +62,3 @@ ul{
     background-color: #00A36C;
     color: black;
 }
-
-form:valid input[type="submit"] {
-    background-color: #00A36C;
-    color: white;
-}
-  
-  form:invalid input[type="submit"] {
-    background-color: #600;
-    color: white;
-  }
-  
