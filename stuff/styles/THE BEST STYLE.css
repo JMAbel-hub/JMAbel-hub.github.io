@@ -1,0 +1,28 @@
+@import url('http://fonts.cdnfonts.com/css/papyrus');
+h2{
+    font-family: 'papyrus';
+}
+
+h1{
+    margin-left: 900px;
+    margin-right: 300px;
+    font-family: 'Comic Sans MS';
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+	margin-right: 150px;
+}
+
+.big_border {
+    border-top: 50px dotted blue;
+    border-bottom: 50px dashed red;
+    border-left: 50px solid yellow;
+    border-right: 50px double;
+}
+
+.text_color{
+    background-color: red;
+}
+
