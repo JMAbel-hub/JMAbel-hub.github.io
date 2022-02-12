@@ -7,7 +7,7 @@
 	<title>Jeremy Abel - ITIS3135 Brand Webpage</title>
 </head>
 
-<body>
+<body onload = "currentDate()">
 	<header>
 		<h1>🐊 Welcome to the Jade Alligators! 🐊</h1>
         <div class="nav">
@@ -18,15 +18,27 @@
 			<a href="/itis3135/website_evaluations/index.html">Website Evaluations</a>
             <a href="/itis3135/stuff/THE..MOST..CRAPPY..WEBSITE.html">Crappy Website</a>
             <a href="/itis3135/brand/index.html">Brand</a> 
+            <a href="/itis3135/firstscripts/index.html">First Scripts</a>
         </div>
         <h2>First Scripts</h2>
 	</header>
 	
 	<main>
-		<form>
-			<h3></h3>
+		<h3 id="date"></h3>
+		<form onsubmit="welcomeMessage(event)">
+			<label for="#name">Enter your name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="#emotion">How are you doing:</label><br>
+            <input type="text" id="emotion" name="emotion" required><br>
+			<input type="submit" value="Welcome" />
+			<br>
+			<h3 id="welcome"></h3>
 			<button type="button" onclick="scriptTest()">Test</button>
-			
+			<button type="button" onclick="sumNumber()">Sum</button>
+			<button type="button" onclick="calculateTax()">Tax</button>
+			<button type="button" onclick="alligatorPun()">Pun</button>
+			<button type="button" onclick="openLogo()">Logo</button>
+			<button type="button" onclick="randomNumber()">Random Number</button>
 		</form>
 	</main>
 	

@@ -49,8 +49,8 @@ form:valid input[type="submit"] {
     color: white;
 }
   
-  form:invalid input[type="submit"] {
+form:invalid input[type="submit"] {
     background-color: #600;
     color: white;
-  }
+}
   
