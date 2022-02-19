@@ -48,10 +48,12 @@ function getShape(numSides){
 function validateEntry(intNumSides){
     // checks if the entry is a number
     if (isNaN(intNumSides)){
+        alert("There was an error with your input");
         return false;
     }
     // checks if the entry is a valid number
     if (intNumSides <= 0 || intNumSides > 10){
+        alert("There was an error with your input");
         return false;
     }
     //  valid entry
