@@ -11,7 +11,7 @@
 	<header>
 		<h1>🐊 Welcome to the Jade Alligators! 🐊</h1>
         <div class="nav">
-			<a href="/itis3135/index.html">Home</a>
+            <a href="/itis3135/index.html">Home</a>
             <a href="/itis3135/introduction/index.html">Introduction</a>
             <a href="/itis3135/tables/index.html">Table</a>
             <a href="/itis3135/forms/index.html">Form</a>
@@ -21,26 +21,16 @@
             <a href="/itis3135/firstscripts/index.html">First Scripts</a>
 			<a href="/itis3135/namethepolygon/index.html">Name The Polygon</a>
         </div>
-        <h2>First Scripts</h2>
+        <h2>Name the Polygon</h2>
 	</header>
 	
 	<main>
-		<h3 id="date"></h3>
-		<form onsubmit="welcomeMessage(event)">
-			<label for="#name">Enter your name:</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="#emotion">How are you doing:</label><br>
-            <input type="text" id="emotion" name="emotion" required><br>
-			<input type="submit" value="Welcome" />
-			<br>
-			<h3 id="welcome"></h3>
-			<button type="button" onclick="scriptTest()">Test</button>
-			<button type="button" onclick="sumNumber()">Sum</button>
-			<button type="button" onclick="calculateTax()">Tax</button>
-			<button type="button" onclick="alligatorPun()">Pun</button>
-			<button type="button" onclick="openLogo()">Logo</button>
-			<button type="button" onclick="randomNumber()">Random Number</button>
-		</form>
+        <br>
+		<form onsubmit="getShape(sides)">
+			<label for="#sides">The Jade Alligator Would Like Your Number [1-10]:</label><br>
+            <input type="text" id="sides" name="sides" required><br>
+            <input type="submit" value="Submit" /><br>
+        </form>
 	</main>
 	
 	<footer>
