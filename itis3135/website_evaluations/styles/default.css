@@ -2,8 +2,8 @@ body{
     background-color: black;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 150px;
-	margin-right: 150px;
+    margin-left: 300px;
+	margin-right: 300px;
 }
 
 footer, figure{
@@ -31,7 +31,7 @@ ul{
     list-style-position: inside;
 }
 
-#CRAP li {
+#CRAPgood li, #CRAPbad li {
     list-style-type: none;
 }
 

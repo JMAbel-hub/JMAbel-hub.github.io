@@ -31,7 +31,7 @@ hr.solid {
 }
 
 
-#brand li {
+#brandinfo li, #brandmotto li {
     list-style-type: circle;
 }
 

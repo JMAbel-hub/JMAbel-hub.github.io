@@ -6,7 +6,11 @@ body{
 	margin-right: 300px;
 }
 
-footer, figure{
+figure{
+    margin: auto;
+}
+
+footer{
     color: #00A36C;
     text-align: center;
 }

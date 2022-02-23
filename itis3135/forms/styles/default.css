@@ -16,7 +16,7 @@ header{
 	text-align: center;
 }
 
-label,a,p{
+a,p{
     text-decoration: none;
     color: #00A36C;
 }
