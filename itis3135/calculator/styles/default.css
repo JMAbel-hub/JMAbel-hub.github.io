@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+	margin-right: 300px;
+}
+
+footer, figure, header{
+    color: #00A36C;
+    text-align: center;
+}
+
+h2 {
+    color: #00A36C;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #00A36C;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.calculatorTry {
+    padding: 10px;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #333;
+}
+
+.buttonTry {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    border: solid black 0.5px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.buttonTopTry{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(160, 158, 158);
+    color: black;
+    border: solid black 0.5px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.equalsTry{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #00A36C;
+    color: black;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.displayTry{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    border: solid black 0.5px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav a { 
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #00A36C;
+    color: black;
+}
