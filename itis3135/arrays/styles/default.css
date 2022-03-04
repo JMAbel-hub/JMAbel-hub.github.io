@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+	margin-right: 300px;
+}
+
+footer, figure, header{
+    color: #00A36C;
+    text-align: center;
+}
+
+h3, h2{
+    color: #00A36C;
+}
+
+a{
+    text-decoration: none;
+    color: #00A36C;
+}
+
+label {
+    float: left;
+    width: 3em;
+    text-align: right;
+}
+
+input, select {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    background-color: #333;
+    color: white;
+    
+}
+
+th, td {
+    border: 1px solid white;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    width: 10em;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav a { 
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #00A36C;
+    color: black;
+}

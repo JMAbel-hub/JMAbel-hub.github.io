@@ -4,11 +4,11 @@
 	<meta name="referrer" content="unsafe-url">
 	<meta charset="UTF-8">
 	<link href="styles/default.css" rel="stylesheet" type="text/css" >
-	<script src="scripts/defaultscripts.js"></script>
-	<title>Jeremy Abel - ITIS3135 First Scripts</title>
+	<script src="scripts/arrays.js"></script>
+	<title>Jeremy Abel - ITIS3135 Arrays</title>
 </head>
 
-<body onload = "currentDate()">
+<body>
 	<header>
 		<h1>🐊 Welcome to the Jade Alligators! 🐊</h1>
         <div class="nav">
@@ -24,29 +24,35 @@
 			<a href="/itis3135/calculator/calculator_try.html">Calculator</a>
 			<a href="/itis3135/arrays/index.html">Arrays</a>
         </div>
-        <h2>First Scripts</h2>
+        <h2>Arrays</h2>
 	</header>
 	
 	<main>
-		<h3 id="date"></h3>
-		<form onsubmit="welcomeMessage(event)">
-			<label for="name">Enter your name:</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="emotion">How are you doing:</label><br>
-            <input type="text" id="emotion" name="emotion" required><br>
-			<input type="submit" value="Welcome" />
-			<br>
-			<h3 id="welcome"></h3>
-			<button type="button" onclick="scriptTest()">Test</button>
-			<button type="button" onclick="sumNumber()">Sum</button>
-			<button type="button" onclick="calculateTax()">Tax</button>
-			<button type="button" onclick="alligatorPun()">Pun</button>
-			<button type="button" onclick="openLogo()">Logo</button>
-			<button type="button" onclick="randomNumber()">Random Number</button>
-		</form>
+		<h2>Salaries Table</h2>
+		<label for="person">Person:</label>
+		<select name="person" id="person">
+			<option value="Jeremy Abel">Jeremy Abel</option>
+			<option value="Spencer Haney">Spencer Haney</option> 
+			<option value="Cristian Garrido">Cristian Garrido</option> 
+			<option value="Charles Green">Charles Green</option> 
+			<option value="Devin Green">Devin Green</option> 
+			<option value="Jakob Huffines">Jakbo Huffines</option> 
+			<option value="Benjamin Lee">Benjamin Lee</option> 
+		</select> <br>
+		
+		<label for="salary">Salary:</label>
+		<input type="text" id="salary"><br>
+		
+		<label>&nbsp;</label>
+		<input type="button" id="add" value="Add to Array">
+		<input type="button" id="display_results" value="Display People" >
+		<input type="button" id="display_salaries" value="Display Salaries" ><br>
+		<div id="results"></div>
+		<table id="salaries_table"></table>
 	</main>
 	
 	<footer>
+		<br>
         <div class="nav">
             <a href="https://www.linkedin.com/in/jeremy-abel123/">Linkedin</a>
             <a href="https://github.com/JMAbel-hub">Github</a>
@@ -65,7 +71,6 @@
 		</p>
 	
 	</footer>
-
 </body>
 
 </html>
