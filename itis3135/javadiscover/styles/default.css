@@ -30,9 +30,9 @@ hr.solid {
     border: none;
 }
 
-
-#listelements li {
+li {
     list-style-type: circle;
+    margin: 5px 0;
 }
 
 a{
