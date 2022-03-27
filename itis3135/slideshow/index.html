@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="referrer" content="unsafe-url">
+	<meta name="referrer" content="unsafe-url">
 	<meta charset="UTF-8">
-	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<link href="styles/default.css" rel="stylesheet" type="text/css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="scripts/defaultscripts.js"></script>
-	<title>Jeremy Abel - ITIS3135 Name The Polygon</title>
+	<title>Jeremy Abel - ITIS3135 Slideshow</title>
 </head>
 
-<body onload = "currentDate()">
+<body>
 	<header>
 		<h1>🐊 Welcome to the Jade Alligators! 🐊</h1>
         <div class="nav">
@@ -31,20 +32,24 @@
 				</div>
 			</div>
         </div>
-        <h2>Name the Polygon</h2>
+        <h2>Alligator Slideshow</h2>
 	</header>
 	
 	<main>
-        <br>
-		<form onsubmit="getShape(sides)">
-			<label for="sides">The Jade Alligator Would Like Your Number [1-10]:</label><br>
-            <input type="text" id="sides" name="sides" required><br>
-            <input type="submit" value="Submit" /><br>
-        </form>
+		<img class="slide_img" id="slide" src="images/alligator_big.jpg" alt="Large alligator">
+		<div id="slides">
+			<img src="images/alligator_big.jpg" alt="Large alligator">
+			<img src="images/alligator_golf.jpg" alt="Alligator on a golf course">
+			<img src="images/alligator_on_sand.jpg" alt="Alligator in the sand">
+			<img src="images/alligator_sideview.jpg" alt="Side view of an alligator">
+			<img src="images/alligator_smile.jpg" alt="Alligator smiling">
+			<img src="images/alligator_water.jpg" alt="Alligator swimming around">
+		</div>
+		<br>
 	</main>
 	
 	<footer>
-        <div class="footer-nav">
+		<div class="footer-nav">
             <a href="https://www.linkedin.com/in/jeremy-abel123/">Linkedin</a>
             <a href="https://github.com/JMAbel-hub">Github</a>
             <a href="#https://jmabel-hub.github.io/">Github.io</a>
