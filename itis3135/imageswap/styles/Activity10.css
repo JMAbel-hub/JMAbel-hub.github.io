@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    width: 550px;
+    border: 3px solid #00A36C;
+}
+
+h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-bottom: .25em;
+}
+
+h2 {
+    font-size: 120%;
+    padding: .5em 0 .25em;
+}
+
+li {
+    padding-right: 10px;
+    display: inline;
+}
+
+footer, figure{
+    color: #00A36C;
+    text-align: center;
+}
+
+header{
+    color: #00A36C;
+	text-align: center;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 0.25;
+}
+
+hr.solid {
+    height: 3px;
+    background-color: #333;
+    border: none;
+}
+
+
+#brandinfo li, #brandmotto li {
+    list-style-type: circle;
+}
+
+a{
+    text-decoration: none;
+    color: #00A36C;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+  
+.nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+}
+  
+
+.nav a:hover, .dropdown:hover .dropbtn {
+    background-color: #00A36C;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer-nav {
+    overflow: hidden;
+    padding: 14px 16px;
+    background-color: #333;
+}
+
+.footer-nav a { 
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-nav a:hover {
+    background-color: #00A36C;
+    color: black;
+}
