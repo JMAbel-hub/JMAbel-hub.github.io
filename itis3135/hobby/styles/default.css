@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+	margin-right: 300px;
+}
+
+footer, figure{
+    color: #00A36C;
+    text-align: center;
+}
+
+header{
+    color: #00A36C;
+	text-align: center;
+}
+
+hr.solid {
+    height: 3px;
+    background-color: #333;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: #00A36C;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+  
+.nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+}
+  
+
+.nav a:hover, .dropdown:hover .dropbtn {
+    background-color: #00A36C;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer-nav {
+    overflow: hidden;
+    padding: 14px 16px;
+    background-color: #333;
+}
+
+.footer-nav a { 
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-nav a:hover {
+    background-color: #00A36C;
+    color: black;
+}
+
+table.table1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.table1, th, td {
+    border: 1px solid white;
+}
+
+table.table1 tr:nth-child(odd) {
+    background-color: #00a36d2f;
+}
+
+td{
+    color: white;
+}
+
+th{
+    color: #00A36C;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+.thin-jade-border {
+    border-color: #00A36C;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#elden_ring, #league_of_legends, #overwatch, #counter_strike, #cuphead{
+    display: none;
+} 
+
+button {
+    background-color: #00A36C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#buttons{
+    margin: auto;
+    width: 75%;
+}
