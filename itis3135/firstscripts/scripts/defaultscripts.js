@@ -3,7 +3,7 @@ function currentDate(){
     document.getElementById("date").innerHTML = "Today is " + today.toLocaleString();
 }
 
-function  welcomeMessage(event){
+function welcomeMessage(event){
     event.preventDefault();
     var name = document.getElementById('name').value
     var emotion = document.getElementById('emotion').value
