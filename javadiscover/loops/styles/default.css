@@ -86,3 +86,23 @@ hr{
     text-align: center;
     color: grey;
 }
+
+p{
+    font-size: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+.center_text{
+    margin-left: 15%;
+    margin-right: 17%;
+}

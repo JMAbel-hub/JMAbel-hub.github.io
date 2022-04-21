@@ -25,30 +25,99 @@
     
     <main>
         <h2>Variables</h2>  
-        <h3 class="subtitle">Learn about datatypes in Java and how we use them. Then, practice what you learned by doing the activity after </h3>
+        <h3 class="subtitle">Learn about datatypes in Java and how to manipulate them.</h3>
         <hr>
-        <h3>Overview: </h3>
+        <h3>Primitive Data Types: </h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui voluptas iure quas 
-            quisquam nobis corrupti! Aperiam, inventore similique laborum ex adipisci sequi placeat tenetur! 
-            Totam illo consequuntur aspernatur maxime voluptatem unde maiores porro modi cumque suscipit 
-            architecto omnis dolorem laborum nisi sint voluptas animi, odio eum tenetur pariatur nemo perferendis 
-            quasi voluptatum necessitatibus! Ex minima quibusdam laudantium dolore quidem maxime unde odit, a nam 
-            est asperiores, harum qui veritatis. Eaque officiis nisi iure itaque architecto reprehenderit ab 
-            consequatur eos hic perspiciatis suscipit nesciunt maiores sequi vel quaerat quod, laudantium excepturi 
-            obcaecati iste. Architecto, mollitia vel iure eveniet voluptatem numquam ipsam quae rerum sed libero commodi 
-            ullam. Ipsa odio similique eos ab officia corrupti explicabo, repellendus, nesciunt alias sequi saepe veniam 
-            suscipit rem optio? Possimus cupiditate expedita delectus recusandae odio cum laudantium? Iusto aut alias omnis 
-            debitis tempore autem corrupti maiores nihil quis nobis, dolor, in sed? Obcaecati eligendi sunt ipsam delectus 
-            facere exercitationem, similique quo, a ipsa vero neque esse saepe, cupiditate doloribus accusamus eos distinctio 
-            beatae illo illum dicta quasi culpa pariatur. Labore itaque tempora facilis natus pariatur suscipit neque, ad, 
-            doloremque aperiam ipsa deleniti enim impedit ratione! Aut, iste sequi. Praesentium mollitia debitis perferendis 
-            earum ipsum inventore.
+            Java's most basic data types are referred to as primitive data types and are included 
+            within the system by default. A lot of the data types deal with handling numbers with 
+            a couple exceptions in char, boolean, and null. For storing numbers, the most frequently
+            used are int and double but feel free to experiment with the other data types. 
+            <ul>
+                <li><strong>int:</strong> holds a positive or negative non-decimal number</li>
+                <li><strong>char:</strong> holds a single character</li>
+                <li><strong>boolean:</strong> holds a true or false value</li>
+                <li><strong>byte:</strong> holds a 8-bit signed two's complement integer</li>
+                <li><strong>long:</strong> holds a 64-bit signed two's complement integer</li>
+                <li><strong>short:</strong> holds a 16-bit signed two's complement integer</li>
+                <li><strong>double:</strong> holds a 64-bit representation of a floating-point number</li>
+                <li><strong>float:</strong> holds a single-precision value that has a width of 32 bits in storage</li>
+                <li><strong>null:</strong> holds a null value meaning nothing</li>
+            </ul>
         </p>
+        <figure class="center">
+            <a href="images/primitive.png">
+                <img src = "images/primitive.png" alt="example of each primitive variable">
+            </a>
+            <figcaption>Example of each primitive variable</figcaption>
+        </figure>
+        <hr>
+        <h3>Math Operations and Comparsions:</h3>
+        <p>
+            Basic math operations can only be applied to ints, doubles, and floats with it 
+            not being supported by the other data types. The basic math operations are as 
+            follows:
+            <ul>
+                <li><strong>+</strong> addition: returns the sum of two elements</li>
+                <li><strong>-</strong> subtraction: returns the difference two elements</li>
+                <li><strong>*</strong> multiplication: returns the product of two elements</li>
+                <li><strong>/</strong> division: returns the quotient of two elements</li>
+                <li><strong>%</strong> modulo: returns the remainder when dividing</li>
+            </ul>
+        </p>
+        <figure class="center">
+            <a href="images/math.png">
+                <img src = "images/math.png" alt="example of every math operation">
+            </a>
+            <figcaption>Example of each math operation</figcaption>
+        </figure>
+        <p>
+            Comparison operators can be used to compare two values and return a boolean value
+            of true or false. These vary in purpose, however, they are extremely useful for 
+            things such as sorting which you will eventually learn.
+            <ul>
+                <li><strong>></strong> greater than: returns whether the left value is greater than right</li>
+                <li><strong><</strong> less than: returns whether the left value is less than the right</li>
+                <li><strong>>=</strong> greater than or equal to: returns whether the left value is greater than or equal to the right</li>
+                <li><strong><=</strong> lesser than or equal to: returns whether the left value is lesser than or equal to the right</li>
+                <li><strong>==</strong> equal to: returns whether two values are equal to one another</li>
+                <li><strong>!=</strong> not equal to: returns whether two values are not equal to one another</li>
+            </ul> 
+        </p>
+        <figure class="center">
+            <a href="images/comparison.png">
+                <img src = "images/comparison.png" alt="example of comparison">
+            </a>
+            <figcaption>Example of the format for comparison operators</figcaption>
+        </figure>
+        <hr>
+        <h3>Strings: </h3>
+        <p>
+            Another very important thing to remember is the string data type even though it isn't 
+            considered to be a primitive data type. They can be created by putting characters 
+            between a pair of double quotes (") and can be compared by using the equals() method 
+            which is comparable to the == learned before and returns a boolean which is either 
+            true or false depending on whether the two strings match.
+        </p>
+        <figure class="center">
+            <a href="images/string.png">
+                <img src = "images/string.png" alt="example of string and string comparison">
+            </a>
+            <figcaption>Example of each string creation and comparison</figcaption>
+        </figure>
+        <hr>
+        <h3>Activity: </h3>
+        <p>
+            For the activity in stage 2, create a new class named stageTwo and just mess around 
+            with the operators and comparisons in order to get comfortable with them. These are 
+            simply the building blocks for us to do more fun stuff later on so why not get used
+            to using them now!
+        </p>
+ 
     </main>
 
     <footer>
-		<a href = "https://www.abeltechnologies.tech"> Pages Built By Abel Technologies ©2022</a>
+		<a href = "https://www.abeltechnologies.tech"> <strong>Pages Built By Abel Technologies ©2022</strong></a>
 
 		<p>
 			<a href="https://jigsaw.w3.org/css-validator/check/referer">
