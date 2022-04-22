@@ -4,6 +4,13 @@
 	<meta name="referrer" content="unsafe-url">
 	<meta charset="UTF-8">
 	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>   
+    <script src="scripts/jquery.zoom.js"></script>
+    <script src="scripts/default.js"></script>
 	<title>Java Discover Stage 1</title>
 </head>
 
@@ -26,7 +33,7 @@
     <main>
         <h2>Hello World!</h2>  
         <h3 class="subtitle">Learn the very basics and core concepts of Java.</h3>
-        <hr>
+        <hr id="range">
         <h3>Print Line: </h3>
         <p>
             To start off, we should learn how to print to the console. To do this is quite simple 
@@ -38,7 +45,7 @@
             below with the classic "Hello World" program:
         </p>
         <figure class="center">
-            <a href="images/hello_world.png">
+            <a href="images/hello_world.png" class="zoom">
                 <img src = "images/hello_world.png" alt="hello world example">
             </a>
             <figcaption>Hello World!</figcaption>
@@ -55,7 +62,7 @@
             easier for others to comprehend their thought process as well as the code itself.
         </p>
         <figure class="center">
-            <a href="images/comments.png">
+            <a href="images/comments.png" class="zoom">
                 <img src = "images/comments.png" alt="commenting example">
             </a>
             <figcaption>Example of both commenting methods</figcaption>
@@ -71,7 +78,7 @@
             in the example below with a file named javaTester:
         </p>
         <figure class="center">
-            <a href="images/class.png">
+            <a href="images/class.png" class="zoom">
                 <img src = "images/class.png" alt="class and main() example">
             </a>
             <figcaption>Example of a program to print a statement</figcaption>
@@ -84,7 +91,7 @@
             a task and are eventually terminated with a ; which should end every statement line. 
         </p>
         <figure class="center">
-            <a href="images/whitespace.png">
+            <a href="images/whitespace.png" class="zoom">
                 <img src = "images/whitespace.png" alt="whitespace and semicolon example">
             </a>
             <figcaption>Example of semicolon and how whitespace works</figcaption>

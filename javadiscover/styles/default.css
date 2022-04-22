@@ -85,3 +85,25 @@ hr{
 p{
     font-size: 20px;
 }
+
+#accordion {
+    margin-top: 50px;
+}
+
+#accordion .ui-accordion-header {
+    color: white;
+    line-height: 42px;
+    display: block;
+    font-size: 12pt;
+    width: 99%;
+    text-indent: 10px;
+    background-color: black;
+    background-image: -webkit-linear-gradient(top,  black 0%,black 100%); 
+}
+
+#accordion .ui-accordion-content {
+    width: 96.1%;
+    color: black;
+    font-size: 10pt;
+    line-height: 16pt;
+  }

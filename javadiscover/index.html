@@ -3,6 +3,10 @@
 <head>
 	<meta name="referrer" content="unsafe-url">
 	<meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="scripts/default.js"></script>
 	<link href="styles/default.css" rel="stylesheet" type="text/css" >
 	<title>Java Discover Homepage</title>
 </head>
@@ -27,26 +31,32 @@
     <main>
         <h2>Intro To Java</h2>  
         <button onclick="document.location='/javadiscover/helloworld/index.html'">Start</button>
-        <hr>
-        <h3>Overview: </h3>
-        <p>
-            Welcome to Java Discover! Where we will be aiding your learning process of Java by providing 
-            a step-by-step process on how to get to object-oreinted programming. This will be done through
-            several stages designed to highlight important information as well as provide some fun 
-            activities to complete in order to test your knowledge. In this course you will be exposed to 
-            fundamental programming concepts, including object-oriented programming while also learning 
-            smaller concepts along the way! Each stage is pretty simplistic, providing a unique and fun 
-            way to learn the fundamental concepts of Java. 
-        </p>
-        <h3>Disclaimer: </h3>
-        <p>
-            This program is intended to aid in the learning process of Java and should not take the place 
-            of an actual program intened to teach you java. The program includes a broad overveiw of each
-            basic concept to get you started in object-oriented programming, providing you supplementary 
-            information alongside a proven method to learn Java. This program also serves as a great 
-            refresher for those who haven't programmed in Java in a while and need something to help 
-            them to pick up where they left off. 
-        </p>
+        <div id="accordion">
+            <h3>Overview: </h3>
+            <div>
+                <p>
+                    Welcome to Java Discover! Where we will be aiding your learning process of Java by providing 
+                    a step-by-step process on how to get to object-oreinted programming. This will be done through
+                    several stages designed to highlight important information as well as provide some fun 
+                    activities to complete in order to test your knowledge. In this course you will be exposed to 
+                    fundamental programming concepts, including object-oriented programming while also learning 
+                    smaller concepts along the way! Each stage is pretty simplistic, providing a unique and fun 
+                    way to learn the fundamental concepts of Java. 
+                </p>
+            </div>
+
+            <h3>Disclaimer: </h3>
+            <div>
+                <p>
+                    This program is intended to aid in the learning process of Java and should not take the place 
+                    of an actual program intened to teach you java. The program includes a broad overveiw of each
+                    basic concept to get you started in object-oriented programming, providing you supplementary 
+                    information alongside a proven method to learn Java. This program also serves as a great 
+                    refresher for those who haven't programmed in Java in a while and need something to help 
+                    them to pick up where they left off. 
+                </p>
+            </div>
+        </div>
     </main>
 
     <footer>

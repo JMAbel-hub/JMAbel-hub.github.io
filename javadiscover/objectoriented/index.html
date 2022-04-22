@@ -4,6 +4,13 @@
 	<meta name="referrer" content="unsafe-url">
 	<meta charset="UTF-8">
 	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>   
+    <script src="scripts/jquery.zoom.js"></script>
+    <script src="scripts/default.js"></script>
 	<title>Java Discover Stage 5</title>
 </head>
 
@@ -27,7 +34,7 @@
     <main>
         <h2>Object Oriented Programming</h2>  
         <h3 class="subtitle">Learn about object creation in Java and how to apply them.</h3>
-        <hr>
+        <hr id="range">
         <h3>Classes and Objects: </h3>
         <p>
             Classes and objects are the two main aspects of object-oriented programming. The 
@@ -36,7 +43,68 @@
             objects such as Apple, Banana, Mango which are created off of the blueprint 
             of Fruit. To do this an entirely new class dedicated to making objects with 
             the object having unique features such as size, name, age that make each 
-            object completely unique. 
+            object completely unique. In this example we are going to create a person class
+            with a unique age, height (in cm), and name. 
+        </p>
+        <hr>
+        <h3>Constructors: </h3>
+        <p>
+            To get started we should create a constrcutor which is a method dedicated to 
+            initializing objects which is called when an object of a class needs to be 
+            created. There can be multiple types of constructors with them having varying
+            numbers of parameters providing different results when implemented. In the 
+            example below we will show both a default constructor and a constructor with 
+            full parameters as well as how to create objects in main. When creating a 
+            object class, you should create at least a default constructor to start the 
+            creation of objects. 
+        </p>
+        <figure class="center">
+            <a href="images/constructor.png" class="zoom">
+                <img src = "images/constructor.png" alt="example of a default and full constructor">
+            </a>
+            <figcaption>Example of a default and full constructor</figcaption>
+        </figure>
+        <hr>
+        <h3>Setters: </h3>
+        <p>
+            After creating the constructor, you might wonder if there was a way to change
+            the variables of an object within your main method. As it turns out, there is
+            throuhg the usage of setters (also referred to as mutators) which simply 
+            replaces a value in an object with another one. When creating an object class,
+            for every global variable contained in the object there should be a setter 
+            corresponding to each one.
+        </p>
+        <figure class="center">
+            <a href="images/setter.png" class="zoom">
+                <img src = "images/setter.png" alt="example of every setter in a person object">
+            </a>
+            <figcaption>Example of every setter in a person object</figcaption>
+        </figure>
+        <hr>
+        <h3>Getters: </h3>
+        <p>
+            Now that we've figured out the basics of constructor and setter creation, you might 
+            ask how we access this data or retrieve it in the main method or elsewhere. This is 
+            done through getters (also referred to as accessors) which is written as a pretty 
+            simple method returning the value of whatever you're trying to get. Simialrly to 
+            setters, getters should also be written into the object class corresponding to 
+            each variable contained within the object. 
+        </p>
+        <figure class="center">
+            <a href="images/getter.png" class="zoom">
+                <img src = "images/getter.png" alt="example of every getter in a person object">
+            </a>
+            <figcaption>Example of every getter in a person object</figcaption>
+        </figure>
+        <hr>
+        <h3>Put it All Together/Activity: </h3>
+        <p>
+            Now that we've established the very basics of object creation, we want you to put 
+            it all together in the final activity! Create a program to simulate a bank 
+            situation where we can create account objects that have a name, balance, and 
+            id. Since we've left data storage out of this curriculum do not worry about account
+            creation, however, if you are interested do some research to storing objects in an 
+            array and challenge yourself by allowing account creation. 
         </p>
     </main>
 

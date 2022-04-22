@@ -4,6 +4,13 @@
 	<meta name="referrer" content="unsafe-url">
 	<meta charset="UTF-8">
 	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>   
+    <script src="scripts/jquery.zoom.js"></script>
+    <script src="scripts/default.js"></script>
 	<title>Java Discover Stage 2</title>
 </head>
 
@@ -26,7 +33,7 @@
     <main>
         <h2>Variables</h2>  
         <h3 class="subtitle">Learn about datatypes in Java and how to manipulate them.</h3>
-        <hr>
+        <hr id="range">
         <h3>Primitive Data Types: </h3>
         <p>
             Java's most basic data types are referred to as primitive data types and are included 
@@ -46,7 +53,7 @@
             </ul>
         </p>
         <figure class="center">
-            <a href="images/primitive.png">
+            <a href="images/primitive.png" class="zoom">
                 <img src = "images/primitive.png" alt="example of each primitive variable">
             </a>
             <figcaption>Example of each primitive variable</figcaption>
@@ -66,7 +73,7 @@
             </ul>
         </p>
         <figure class="center">
-            <a href="images/math.png">
+            <a href="images/math.png" class="zoom">
                 <img src = "images/math.png" alt="example of every math operation">
             </a>
             <figcaption>Example of each math operation</figcaption>
@@ -85,7 +92,7 @@
             </ul> 
         </p>
         <figure class="center">
-            <a href="images/comparison.png">
+            <a href="images/comparison.png" class="zoom">
                 <img src = "images/comparison.png" alt="example of comparison">
             </a>
             <figcaption>Example of the format for comparison operators</figcaption>
@@ -100,7 +107,7 @@
             true or false depending on whether the two strings match.
         </p>
         <figure class="center">
-            <a href="images/string.png">
+            <a href="images/string.png" class="zoom">
                 <img src = "images/string.png" alt="example of string and string comparison">
             </a>
             <figcaption>Example of each string creation and comparison</figcaption>
