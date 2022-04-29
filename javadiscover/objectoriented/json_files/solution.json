@@ -1,0 +1,7 @@
+{"solution":[
+    {
+        "picture": "images/solution.png",
+        "caption": "The solution for the account class",
+        "explanation": "The picture above depicts the correct account class for account object creation with name, id, and balance being variables that are unique to each account. You may continue with this activity by messing around in a main method to create different accounts and change variables arround to get a little more comfortable with object-oriented programming."
+    }
+]}

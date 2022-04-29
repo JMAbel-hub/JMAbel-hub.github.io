@@ -1,0 +1,26 @@
+{"helloworldcontent":[
+    {
+        "section": "Print Line:",
+        "content": "To start off, we should learn how to print to the console. To do this is quite simple with the phrase: System.out.println(); which allows any content within the parentheses to be printed within the console. More specifically, System is a class from the core library provided by Java, out is an object that controls the output, and println() is a method with a single parameter. Currently, you shouldn't worry about the complexities of the function, just know that it is how you print information. An example can be found below with the classic 'Hello World' program:",
+        "picture": "images/hello_world.png",
+        "caption": "Hello World!"
+    },
+    {
+        "section": "Commenting:",
+        "content": "You may have noticed have noticed the green text with the two slashes in the 'Hello World' program and these are commonly referred to as comments. Comments are instances of text that will be ignored by the compiler to increase readability of a program. There are two notable methods of commenting with a single line comment being indicated by a // and a multi-line comment starting with /* and ending with */. It is very important for a student to start building early habits of commenting their code to make it easier for others to comprehend their thought process as well as the code itself.",
+        "picture": "images/comments.png",
+        "caption": "Example of both commenting methods"
+    },
+    {
+        "section": "Classes/main() Method:",
+        "content": "Now that we've established some basic concepts to get you started, we now need a place to house our code and allow our programs to compile. Every Java program must have one class whose name is the same as the program filename and every application must contain a main() method which is conisdered the entry point. The signature of the method is public static void main(String[] args) { } where you write your code in between the curly braces as seen in the example below with a file named javaTester:",
+        "picture": "images/class.png",
+        "caption": "Example of a program to print a statement"
+    },
+    {
+        "section": "Other Important Knowledge:",
+        "content": "In Java whitespace is completely ignored, with things such as spaces and new lines between statements being completely ignored. This being said statements are lines of code that execute a task and are eventually terminated with a ; which should end every statement line.",
+        "picture": "images/whitespace.png",
+        "caption": "Example of semicolon and how whitespace works"
+    }
+]}

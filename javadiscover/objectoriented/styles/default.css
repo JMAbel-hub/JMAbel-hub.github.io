@@ -70,11 +70,12 @@ button{
     background-color: #F3D503;
     color: black;
     display: inline-block;
-    box-shadow: 5px 10px #EF6461;
+    box-shadow: 3px 4px #EF6461;
     text-align: center;
-    padding: 48px 56px;
-    font-size: 50px;
+    padding: 25px 50px;
+    font-size: 20px;
     margin-left: 590px;
+    margin-bottom: 25px;
 }
 
 hr{
